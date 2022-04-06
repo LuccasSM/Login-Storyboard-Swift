@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         entrar.layer.cornerRadius = 5
     }
     
-    
     @IBAction func showController2(_ sender: Any) {
         navigationController?.pushViewController(ViewTwo(), animated: true)
     }
